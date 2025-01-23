@@ -73,7 +73,7 @@ export default function ContactForm() {
     }
 
     return (
-        <div className="mr-[10%] ">
+        <div  data-aos="fade-left" className="mr-[10%] ">
             <Form {...form}>
                 <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-5">
                     <div className="grid grid-cols-2 gap-4">

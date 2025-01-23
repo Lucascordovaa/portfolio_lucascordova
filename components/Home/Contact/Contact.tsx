@@ -50,7 +50,7 @@ const Contact = () => {
 
                     </div>
                     {/*Form*/}
-                    <div data-aos="fade-left"  className='lg:block'>
+                    <div className='lg:block'>
                         <ContactForm  />
                     </div>
                 </div>
