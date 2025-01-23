@@ -14,7 +14,7 @@ const Contact = () => {
                 </h1>
                 <div className='grid grid-cols-1 lg:grid-cols-2 items-center gap-12 pt-20 pb-15 bg-black'>
                     {/*Text Content*/}
-                    <div data-aos="fade-up">
+                    <div data-aos="fade-right">
                         <h1 className=' text-white text-4xl sm:text-4xl md:text-5xl mt-6 mb-6 font-bold md:leading-[3rem]
                             lg:leading[3.5rem]'>Let&apos;s <span className='text-transparent bg-clip-text bg-gradient-to-r from-teal-300 to-blue-500'>Connect!
                             </span>
