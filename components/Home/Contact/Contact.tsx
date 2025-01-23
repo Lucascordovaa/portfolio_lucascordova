@@ -19,10 +19,10 @@ const Contact = () => {
                             lg:leading[3.5rem]'>Let&apos;s <span className='text-transparent bg-clip-text bg-gradient-to-r from-teal-300 to-blue-500'>Connect!
                             </span>
                         </h1>
-                        <p data-aos="fade-up" data-aos-delay="100" className='text-white text-2xl'>
+                        <p data-aos="fade-up" className='text-white text-2xl'>
                             Have a project in mind, or just want to say hi? Drop me a message or check out my socials!
                         </p>
-                        <div data-aos="fade-up" data-aos-delay="200" className='flex mt-8 mb-8 items-center space-x-6'>
+                        <div data-aos="fade-up" className='flex mt-8 mb-8 items-center space-x-6'>
 
                             <Link
                                 href="https://linkedin.com/in/lucasfilipecordova"
@@ -50,7 +50,7 @@ const Contact = () => {
 
                     </div>
                     {/*Form*/}
-                    <div data-aos="fade-left" data-aos-delay="100"  className='lg:block'>
+                    <div data-aos="fade-left"  className='lg:block'>
                         <ContactForm  />
                     </div>
                 </div>
