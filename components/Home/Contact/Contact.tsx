@@ -7,8 +7,8 @@ import ContactForm from './ContactForm'
 
 const Contact = () => {
     return (
-        <div id="contact" data-aos="fade-up" className='bg-black pt-20 pb-20'>
-            <div className='flex justify-center flex-col w-[90%] sm:w-[80%] h-full mx-auto '>
+        <div id="contact" className='bg-black pt-20 pb-20'>
+            <div data-aos="fade-up" className='flex justify-center flex-col w-[90%] sm:w-[80%] h-full mx-auto '>
                 <h1 className="flex items-center justify-center">
                     <span className="flex-grow border-t border-white"></span>
                 </h1>
@@ -19,10 +19,10 @@ const Contact = () => {
                             lg:leading[3.5rem]'>Let&apos;s <span className='text-transparent bg-clip-text bg-gradient-to-r from-teal-300 to-blue-500'>Connect!
                             </span>
                         </h1>
-                        <p data-aos="fade-up" className='text-white text-2xl'>
+                        <p className='text-white text-2xl'>
                             Have a project in mind, or just want to say hi? Drop me a message or check out my socials!
                         </p>
-                        <div data-aos="fade-up" className='flex mt-8 mb-8 items-center space-x-6'>
+                        <div className='flex mt-8 mb-8 items-center space-x-6'>
 
                             <Link
                                 href="https://linkedin.com/in/lucasfilipecordova"
@@ -51,7 +51,7 @@ const Contact = () => {
                     </div>
                     {/*Form*/}
                     <div className='lg:block'>
-                        <ContactForm  />
+                        <ContactForm />
                     </div>
                 </div>
             </div>
