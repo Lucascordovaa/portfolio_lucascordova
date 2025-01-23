@@ -8,11 +8,11 @@ import ContactForm from './ContactForm'
 const Contact = () => {
     return (
         <div id="contact" className='bg-black pt-20 pb-20'>
-            <div data-aos="fade-up" className='flex justify-center flex-col w-[90%] sm:w-[80%] h-full mx-auto '>
+            <div className='flex justify-center flex-col w-[90%] sm:w-[80%] h-full mx-auto '>
                 <h1 className="flex items-center justify-center">
                     <span className="flex-grow border-t border-white"></span>
                 </h1>
-                <div className='grid grid-cols-1 lg:grid-cols-2 items-center gap-12 pt-20 pb-15'>
+                <div data-aos="fade-up" className='grid grid-cols-1 lg:grid-cols-2 items-center gap-12 pt-20 pb-15'>
                     {/*Text Content*/}
                     <div>
                         <h1 className=' text-white text-4xl sm:text-4xl md:text-5xl mt-6 mb-6 font-bold md:leading-[3rem]
