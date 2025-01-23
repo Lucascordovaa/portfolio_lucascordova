@@ -20,7 +20,7 @@ const Hero = () => {
                     {/*Text Content*/}
                     <div>
                         <h1 data-aos="fade-up" className=' text-white text-4xl sm:text-4xl md:text-5xl mt-6 mb-6 font-bold md:leading-[3rem]
-                        lg:leading[3.5rem]'>Hi, I'm <span className='text-transparent bg-clip-text bg-gradient-to-r from-teal-300 to-blue-500'>Lucas Cordova</span>, <span
+                        lg:leading[3.5rem]'>Hi, I&apos;m <span className='text-transparent bg-clip-text bg-gradient-to-r from-teal-300 to-blue-500'>Lucas Cordova</span>, <span
                                 className='text-transparent bg-clip-text bg-gradient-to-r from-teal-300 to-blue-500'>Frontend Developer</span> - Turning ideas into responsive digital realities.
                         </h1>
                         <p data-aos="fade-up" className='text-white text-2xl'>Specializing in building seamless, modern web experiences using Next.JS, React, TailwindCSS, and more.</p>

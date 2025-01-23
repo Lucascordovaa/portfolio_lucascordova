@@ -2,7 +2,6 @@
 
 import { navLinks } from '@/constant/Constant'
 import Link from 'next/link'
-import React, { useEffect, useState } from 'react'
 import Image from 'next/image'
 import { Button } from '../ui/button'
 import { HiBars3BottomRight } from 'react-icons/hi2'

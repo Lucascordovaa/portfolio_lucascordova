@@ -16,7 +16,7 @@ const Contact = () => {
                     {/*Text Content*/}
                     <div>
                         <h1 data-aos="fade-up" className=' text-white text-4xl sm:text-4xl md:text-5xl mt-6 mb-6 font-bold md:leading-[3rem]
-                            lg:leading[3.5rem]'>Let's <span className='text-transparent bg-clip-text bg-gradient-to-r from-teal-300 to-blue-500'>Connect!
+                            lg:leading[3.5rem]'>Let&apos;s <span className='text-transparent bg-clip-text bg-gradient-to-r from-teal-300 to-blue-500'>Connect!
                             </span>
                         </h1>
                         <p data-aos="fade-up" data-aos-delay="100" className='text-white text-2xl'>
