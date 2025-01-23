@@ -15,7 +15,7 @@ const Portfolio = () => {
                 <div data-aos="fade-right" data-aos-anchor-placement="top center">
                     {/*reusable card component*/}
                     <PortfolioCard
-                        image="/images/yourstorage.png"
+                        image="/assets/yourstorage.png"
                         title="YourStorage!"
                         description='Fullstack cloud storage/file manager web application with One Time Password (OTP) Authentication'
                         badges={[
