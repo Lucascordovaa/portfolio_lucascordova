@@ -14,8 +14,8 @@ const MobileNav = ({ closeNav, showNav }: Props) => {
   const navOpen = showNav ? "translate-x-0" : "translate-x-[-100%]";
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/lucascordovacurriculo.pdf";
-    link.download = "Curriculo_Lucas_Cordova.pdf";
+    link.href = "//Lucas_Cordova_Resume_2025.pdf";
+    link.download = "/Lucas_Cordova_Resume_2025.pdf";
     link.click();
   };
 
