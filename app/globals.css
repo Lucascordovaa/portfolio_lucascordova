@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  :root {
+    --radius: 0.5rem
+  }
+}
+
+@layer utilities {
+  .hover-link {
+    @apply relative cursor-pointer text-white font-bold
+    transition-all ease-in-out before:absolute before:bottom-0 
+    before:left-[50%] before:h-px before:w-0 before:origin-center 
+    before:bg-blue-400 before:transition-[width] before:duration-700 
+    before:ease-in-out after:absolute after:bottom-0 after:right-[50%] 
+    after:h-px after:w-0 after:origin-center after:bg-blue-400 after:transition-[width] 
+    after:duration-700 after:ease-in-out hover:text-blue-400 hover:before:w-[50%] hover:after:w-[50%]
+    }
+
+  .nav-link{
+    @apply relative text-white font-medium w-fit block after:block after:content-[''] after:absolute after:h-[3px] 
+    after:bg-blue-400 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition-all after:duration-300 after:origin-left
+  }
+}
+
