@@ -19,7 +19,7 @@ const Home = () => {
         duration:1000,
         easing:'ease',
         once:true,
-        anchorPlacement: "bottom-bottom"
+        anchorPlacement: "top-bottom",
       })
     };
     initAOS();
