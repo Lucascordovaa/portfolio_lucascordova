@@ -57,7 +57,11 @@ export default function ContactForm() {
                 title: "Success",
                 description: "Your message has been sent.",
             })
-        } catch (error: any) {
+
+
+        }
+        /* eslint-disable  @typescript-eslint/no-explicit-any */
+        catch (error: any) {
             toast({
                 variant: "destructive",
                 title: "Error",
