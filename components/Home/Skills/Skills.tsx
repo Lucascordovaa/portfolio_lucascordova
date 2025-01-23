@@ -51,8 +51,7 @@ const Skills = () => {
                     <span className="flex-grow border-t border-white ml-6 "></span>
                 </h1>
                 <div
-                    data-aos="fade-up"
-                    data-aos-anchor-placement="top-center" className='grid mt-16 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6'>
+                    data-aos="fade-up" className='grid mt-16 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6'>
                     {skills.map((skill, index) =>
                         <div
                             key={index} className='flex items-center justify-center p-1 bg-gradient-to-r from-teal-300 to-blue-500 rounded-lg shadow-md space-x-3 transform transition-transform hover:scale-105'>
