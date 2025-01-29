@@ -18,8 +18,8 @@ const Nav = ({ openNav }: Props) => {
 
     const handleDownload = () => {
         const link = document.createElement("a");
-        link.href = "/Lucas_Cordova_Resume_2025.pdf";
-        link.download = "Lucas_Cordova_Resume_2025.pdf";
+        link.href = "/Lucas-Cordova-Resume-2025.pdf";
+        link.download = "Lucas-Cordova-Resume-2025.pdf";
         link.click();
     };
 
