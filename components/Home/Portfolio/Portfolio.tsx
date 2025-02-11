@@ -32,14 +32,18 @@ const Portfolio = () => {
                 <div data-aos="fade-left" data-aos-anchor-placement="top center" data-aos-delay="100">
                     {/*reusable card component*/}
                     <PortfolioCard
-                        image="/images/placeholder.png"
-                        title="Coming soon"
-                        description='Project under development, coming soon!'
+                        image="/assets/flowiq.png"
+                        title="FlowIQ - Business Analytics"
+                        description='A modern landing page for a fictional Business Analytics company called "FlowIQ"'
                         badges={[
-                            { text: "Next.JS" }
+                            { text: "Next.js" },
+                            { text: "React" },
+                            { text: "Typescript" },
+                            { text: "Tailwind CSS" },
+                            { text: "Shadcn" },
                         ]}
-                        linkText="Coming soon"
-                        link='/' />
+                        linkText="Check it out"
+                        link='https://flowiq-business.vercel.app/' />
                 </div>
                 <div data-aos="fade-right" data-aos-anchor-placement="top center" data-aos-delay="200">
                     {/*reusable card component*/}
