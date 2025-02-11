@@ -32,7 +32,7 @@ const Portfolio = () => {
                 <div data-aos="fade-left" data-aos-anchor-placement="top center" data-aos-delay="100">
                     {/*reusable card component*/}
                     <PortfolioCard
-                        image="/assets/flowiq.png"
+                        image="/assets/flowiq.PNG"
                         title="FlowIQ - Business Analytics"
                         description='A modern landing page for a fictional Business Analytics company called "FlowIQ"'
                         badges={[
