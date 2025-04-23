@@ -37,10 +37,10 @@ const Hero = () => {
                         <div>
                             <Button data-aos="fade-up" data-aos-delay="600"
                                 className="rounded-full text-black text-2xl h-16
-                        font-bold bg-gradient-to-r from-teal-300 to-blue-500 transition-colors duration-300 ease-in-out hover:text-white"
+                                font-bold bg-gradient-to-r from-teal-300 to-blue-500"
                                 onClick={handleDownload}
                             >
-                                Download My Resume
+                                <p className='transition-colors duration-300 ease-in-out hover:text-white'>Download My Resume</p>
                             </Button>
                         </div>
                     </div>

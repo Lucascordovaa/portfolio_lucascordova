@@ -17,7 +17,7 @@ const Portfolio = () => {
                     <PortfolioCard
                         image="/assets/yourstorage.png"
                         title="YourStorage!"
-                        description='Fullstack cloud storage/file manager web application with One Time Password (OTP) Authentication'
+                        description='Fullstack cloud storage/file manager web application with One Time Password (OTP) Authentication system'
                         badges={[
                             { text: "Next.js" },
                             { text: "React" },
@@ -26,10 +26,31 @@ const Portfolio = () => {
                             { text: "Shadcn" },
                             { text: "Appwrite" },
                         ]}
-                        linkText="Check it out"
-                        link='https://yourstorage-app.vercel.app/' />
+                        demolinkText="Try the Live Demo"
+                        demolink='https://yourstorage-app.vercel.app/'
+                        gitlink='https://github.com/Lucascordovaa/yourstorage_app'
+                        gitlinkText='Check out the GitHub Repo'/>
                 </div>
                 <div data-aos="fade-left" data-aos-anchor-placement="top center" data-aos-delay="100">
+                    {/*reusable card component*/}
+                    <PortfolioCard
+                        image="/assets/sonicaudio.PNG"
+                        title="Sonic - The Perfect Sound, Anywhere"
+                        description='A full-fledged product website for a fictional portable speaker/audio company called "Sonic".'
+                        badges={[
+                            { text: "Next.js" },
+                            { text: "React" },
+                            { text: "Typescript" },
+                            { text: "Tailwind CSS" },
+                            { text: "Framer Motion"},
+                            { text: "Shadcn" },
+                        ]}
+                        demolinkText="Try the Live Demo"
+                        demolink='https://sonic-audio.vercel.app/' 
+                        gitlink='https://github.com/Lucascordovaa/sonic-audio'
+                        gitlinkText='Check out the GitHub Repo'/>
+                </div>
+                <div data-aos="fade-right" data-aos-anchor-placement="top center" data-aos-delay="200">
                     {/*reusable card component*/}
                     <PortfolioCard
                         image="/assets/flowiq.PNG"
@@ -42,20 +63,10 @@ const Portfolio = () => {
                             { text: "Tailwind CSS" },
                             { text: "Shadcn" },
                         ]}
-                        linkText="Check it out"
-                        link='https://flowiq-business.vercel.app/' />
-                </div>
-                <div data-aos="fade-right" data-aos-anchor-placement="top center" data-aos-delay="200">
-                    {/*reusable card component*/}
-                    <PortfolioCard
-                        image="/images/placeholder.png"
-                        title="Coming soon"
-                        description='Project under development, coming soon!'
-                        badges={[
-                            { text: "Next.JS" }
-                        ]}
-                        linkText="Coming soon"
-                        link='/' />
+                        demolinkText="Try the Live Demo"
+                        demolink='https://flowiq-business.vercel.app/'
+                        gitlink='https://github.com/Lucascordovaa/flowiq'
+                        gitlinkText='Check out the GitHub Repo' />
                 </div>
                 <div data-aos="fade-left" data-aos-anchor-placement="top center" data-aos-delay="300">
                     {/*reusable card component*/}
@@ -64,10 +75,12 @@ const Portfolio = () => {
                         title="Coming soon"
                         description='Project under development, coming soon!'
                         badges={[
-                            { text: "Next.JS" }
+                            { text: "TBD" }
                         ]}
-                        linkText="Coming soon"
-                        link='/' />
+                        demolinkText=""
+                        demolink='' 
+                        gitlink=''
+                        gitlinkText=''/>
                 </div>
             </div>
         </div>
