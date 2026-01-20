@@ -19,7 +19,7 @@ type Props = {
 const PortfolioCard = ({ image, title, demolinkText, description, badges, gitlink, demolink, gitlinkText }: Props) => {
     return (
         <div className="bg-gradient-to-r from-teal-300 to-blue-500 rounded-xl shadow-lg transform transition-transform hover:scale-105 hover:shadow-2xl p-1 max-w-xl mx-auto">
-            <div className='h-full w-full bg-black rounded-lg'>
+            <div className='h-[600px] w-full bg-black rounded-lg'>
                 <Image
                     src={image}
                     alt={title}

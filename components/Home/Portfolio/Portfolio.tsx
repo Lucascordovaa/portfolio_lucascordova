@@ -17,7 +17,7 @@ const Portfolio = () => {
                     <PortfolioCard
                         image="/assets/yourstorage.png"
                         title="YourStorage!"
-                        description='Fullstack cloud storage/file manager web application with One Time Password (OTP) Authentication system'
+                        description='Full-stack cloud storage/file manager web application with One Time Password (OTP) Authentication system'
                         badges={[
                             { text: "Next.js" },
                             { text: "React" },
@@ -71,16 +71,23 @@ const Portfolio = () => {
                 <div data-aos="fade-left" data-aos-anchor-placement="top center" data-aos-delay="300">
                     {/*reusable card component*/}
                     <PortfolioCard
-                        image="/images/placeholder.png"
-                        title="Coming soon"
-                        description='Project under development, coming soon!'
+                        image="/assets/salesdashboard.png"
+                        title="Sales Dashboard"
+                        description='Full-stack sales dashboard web application with CSV file upload for viewing sales and profit metrics'
                         badges={[
-                            { text: "TBD" }
+                            { text: "Next.js" },
+                            { text: "React" },
+                            { text: "Typescript" },
+                            { text: "Tailwind CSS" },
+                            { text: "Python" },
+                            { text: "SQLAlchemy" },
+                            { text: "FastAPI" },
+                            { text: "Shadcn" },
                         ]}
                         demolinkText=""
                         demolink='' 
-                        gitlink=''
-                        gitlinkText=''/>
+                        gitlink='https://github.com/Lucascordovaa/sales-dashboard'
+                        gitlinkText='Check out the GitHub Repo'/>
                 </div>
             </div>
         </div>
